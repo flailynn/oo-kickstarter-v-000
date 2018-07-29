@@ -7,5 +7,6 @@ class Backer
 
   def back_project(project)
     self.projects << project unless self.projects.inlude?(project)
+    self.projects
   end
 end
