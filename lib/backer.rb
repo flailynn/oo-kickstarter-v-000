@@ -6,6 +6,6 @@ class Backer
   end
 
   def back_project(project)
-
+    self.projects << project unless self.projects.inlude?(project)
   end
 end
