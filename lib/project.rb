@@ -6,4 +6,8 @@ class Project
     self.backers = []
   end
 
+  def add_backer(backer)
+
+  end
+
 end
